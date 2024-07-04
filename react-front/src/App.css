@@ -1,0 +1,13 @@
+h3,
+p {
+  font-family: "Nunito", sans-serif;
+}
+.main-block {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  grid-auto-rows: 320px;
+}
+.inner-block {
+  height: fit-content;
+}
